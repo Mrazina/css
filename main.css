@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-image: url(images/seigaiha.png);
+}
+
+body {
+	background-image: url(images/BA_new_icon.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+:visited {
+	color: #a9a;
+}
+
+.h1s {
+	font-family: 'Jim Nightshade', cursive;
+	font-size: 40px;
+	color: #333;
+	text-align: center;
+
+}
+
+.h2s {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #ccc;
+	text-align: center;
+	font-style: italic;
+}
+
+.h3s {
+	font-family: 'Jim Nightshade', cursive;
+	font-size: 16px;
+	color: #888;
+	font-weight: bold;
+}
+
+.content {
+	font-family: 'Jim Nightshade', cursive;
+	text-align: center;
+	font-size: 30px;
+	display: inline;
+}
+ul {
+	list-style: none;
+}
+
+.item:hover {
+	list-style-image: url(images/short_arrow_right-512.png);
+	background-color: #eee;
+	margin-left: 30px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+a:hover {
+	color: #333;
+
+}
+
+a:active {
+	text-decoration: overline;
+}
+
+.title {
+	font-family: 'Jim Nightshade', cursive;
+	font-size: 35px;
+	text-align: justify;
+}
+
+.paragraph1 {
+	font-family: 'Jim Nightshade', cursive;
+	text-indent: 40px;
+	font-size: 18px;
+	color: #222;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.paragraph:first-letter {
+	font-size: 36px;
+	color: #ea3;
+}
+
+.paragraph:first-line {
+	font-size: 18px;
+	color: #a83;
+}
+
+.table {
+	font-size: 18px;
+	font-family: Verdana;
+}
+.table2 {
+	background: #666;
+	color: white;
+}
+
+.table1:hover {
+	color: #ccc;
+}
+
+tr {
+	
+}
